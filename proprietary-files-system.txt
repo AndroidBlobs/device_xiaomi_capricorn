@@ -16,6 +16,8 @@
 bin/dpmd
 bin/iwpriv
 bin/wfdservice
+etc/cne/SwimConfig.xml
+etc/cne/andsfCne.xml
 etc/dpm/dpm.conf
 etc/firmware/tfa9891.cnt
 etc/init/dpmd.rc
@@ -27,6 +29,7 @@ etc/init/vendor.xiaomi.hardware.tidaservice@1.0-service.rc
 etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 etc/init/wfdservice.rc
 etc/nfcee_access.xml
+etc/perf/whitelistedapps.xml
 etc/permissions/audiosphere.xml
 etc/permissions/cneapiclient.xml
 etc/permissions/com.qti.dpmframework.xml
@@ -90,6 +93,9 @@ lib/libmmosal.so
 lib/libmmparser_lite.so
 lib/libmmrtpdecoder.so
 lib/libmmrtpencoder.so
+lib/libqti-perfd-client_system.so
+lib/libqti-util_system.so
+lib/libqti_performance.so
 lib/librcc.so
 lib/libscveBlobDescriptor.so
 lib/libscveBlobDescriptor_skel.so
@@ -124,6 +130,7 @@ lib/vendor.display.postproc@1.0.so
 lib/vendor.qti.esepowermanager@1.0.so
 lib/vendor.qti.gnss@1.0.so
 lib/vendor.qti.hardware.data.latency@1.0.so
+lib/vendor.qti.hardware.perf@1.0.so
 lib/vendor.qti.hardware.vpp@1.1.so
 lib/vendor.qti.imsrtpservice@1.0.so
 lib/vendor.xiaomi.hardware.displayfeature@1.0.so
@@ -159,6 +166,9 @@ lib64/libmmosal.so
 lib64/libmmparser_lite.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
+lib64/libqti-perfd-client_system.so
+lib64/libqti-util_system.so
+lib64/libqti_performance.so
 lib64/librcc.so
 lib64/libscveBlobDescriptor.so
 lib64/libscveBlobDescriptor_stub.so
@@ -193,6 +203,7 @@ lib64/vendor.display.postproc@1.0.so
 lib64/vendor.qti.esepowermanager@1.0.so
 lib64/vendor.qti.gnss@1.0.so
 lib64/vendor.qti.hardware.data.latency@1.0.so
+lib64/vendor.qti.hardware.perf@1.0.so
 lib64/vendor.qti.hardware.vpp@1.1.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
